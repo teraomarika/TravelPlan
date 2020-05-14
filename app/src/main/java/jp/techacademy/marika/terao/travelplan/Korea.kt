@@ -1,9 +1,14 @@
 package jp.techacademy.marika.terao.travelplan
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import kotlinx.android.synthetic.main.activity_german.*
 import kotlinx.android.synthetic.main.activity_korea.*
+import kotlinx.android.synthetic.main.activity_korea.airplan
+import kotlinx.android.synthetic.main.activity_korea.hotel
 import java.util.*
 
 class Korea : AppCompatActivity() {
@@ -44,5 +49,19 @@ class Korea : AppCompatActivity() {
                 }
             }
         }, 2000, 2000) // 最初に始動させるまで 100ミリ秒、ループの間隔を 100ミリ秒 に設定
+
+        airplan.setOnClickListener{
+            val uri = Uri.parse("https://www.skyscanner.jp/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+
+        }
+
+        hotel.setOnClickListener {
+            val uri = Uri.parse("https://www.booking.com/index.ja.html")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+
+        }
     }
 }
