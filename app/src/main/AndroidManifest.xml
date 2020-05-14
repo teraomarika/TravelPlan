@@ -9,22 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".internationl_need2"></activity>
-        <activity android:name=".International_need" />
-        <activity android:name=".yakushima" />
-        <activity android:name=".kagawa" />
-        <activity android:name=".kinosaki" />
+        <activity android:name=".Brazil"></activity>
+        <activity android:name=".Philippines" />
+        <activity android:name=".Hawaii" />
+        <activity android:name=".Australia" />
+        <activity android:name=".German" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@drawable/gradation" />
+
+        <activity android:name=".Korea" />
+        <activity android:name=".Thai" />
+        <activity android:name=".Vietnam" />
+        <activity android:name=".London" />
+        <activity android:name=".InternationlNeed2" />
+        <activity android:name=".InternationalNeed" />
+        <activity android:name=".Yakushima" />
+        <activity android:name=".Kagawa" />
+        <activity android:name=".Kinosaki" />
         <activity
-            android:name=".wakayama"
+            android:name=".Wakayama"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".japan_need"
+            android:name=".JapanNeed"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".international_want"
+            android:name=".InternationalWant"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".international_howlong"
+            android:name=".InternationalHowlong"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

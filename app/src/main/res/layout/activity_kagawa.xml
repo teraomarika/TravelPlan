@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kagawa">
+    tools:context=".Kagawa">
+
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="139dp"
@@ -26,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kagawa" />
+        app:layout_constraintTop_toBottomOf="@+id/kagawa"
+        app:layout_constraintVertical_bias="0.652" />
 
     <TextView
         android:id="@+id/kagawa"
@@ -44,14 +47,13 @@
         android:id="@+id/kagawa_tag"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="32dp"
         android:text="#うどん  #高松丸亀町壱番街前ドーム広場
         ＃草間弥生　＃直島 　#オリーブ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

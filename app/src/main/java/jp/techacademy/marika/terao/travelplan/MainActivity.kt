@@ -10,13 +10,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         button_japan.setOnClickListener {
-            val intent = Intent(this, japan_need::class.java)
+            val intent = Intent(this, JapanNeed::class.java)
             startActivity(intent)
         }
 
         button_international.setOnClickListener {
-            val intent = Intent(this, international_howlong::class.java)
+            val intent = Intent(this, InternationalHowlong::class.java)
             startActivity(intent)
         }
 
