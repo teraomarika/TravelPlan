@@ -18,11 +18,11 @@ class Brazil : AppCompatActivity() {
 
     val B1 = (R.drawable.brazil4)
     val B2 = (R.drawable.brazil2)
-    val B3 = (R.drawable.brazill1)
+    val B3 = (R.drawable.brazil1)
     val B4 = (R.drawable.brazil3)
-    val B5 = (R.drawable.brazil5)
 
-    val BrazilList = arrayOf(B1,B2,B3,B4,B5)
+
+    val BrazilList = arrayOf(B1,B2,B3,B4)
     var count = 0
 
 
@@ -40,8 +40,8 @@ class Brazil : AppCompatActivity() {
                 mHandler.post {
                     BrazilView.setImageResource(BrazilList[count])
                     count++
-                    if (count == 4 ){
-                        count = count - 4
+                    if (count == 3 ){
+                        count = count - 3
                     }
 
                 }
