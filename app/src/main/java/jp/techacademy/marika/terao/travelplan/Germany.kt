@@ -8,7 +8,7 @@ import android.os.Handler
 import kotlinx.android.synthetic.main.activity_german.*
 import java.util.*
 
-class German : AppCompatActivity() {
+class Germany : AppCompatActivity() {
 
     private var mTimer: Timer? = null
 

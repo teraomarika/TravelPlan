@@ -1,10 +1,14 @@
 package jp.techacademy.marika.terao.travelplan
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import kotlinx.android.synthetic.main.activity_kagawa.*
 import kotlinx.android.synthetic.main.activity_wakayama.*
+import kotlinx.android.synthetic.main.activity_wakayama.hotel_booking
 import java.util.*
 
 class Wakayama : AppCompatActivity(){
@@ -60,6 +64,13 @@ class Wakayama : AppCompatActivity(){
                 }
             }
         }, 2000, 2000) // 最初に始動させるまで 100ミリ秒、ループの間隔を 100ミリ秒 に設定
+
+        hotel_booking.setOnClickListener {
+            val uri = Uri.parse("https://travel.rakuten.co.jp/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+
+        }
 
 
     }

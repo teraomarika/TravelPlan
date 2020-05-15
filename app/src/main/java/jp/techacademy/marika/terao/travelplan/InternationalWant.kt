@@ -14,8 +14,14 @@ class InternationalWant : AppCompatActivity() {
 
 
         reflesh.setOnClickListener {
-            intent = Intent(this, Philippines::class.java)
-            startActivity(intent)
+            val randomInteger = (0..1).shuffled().first() // 0 or 1 or 2のどれかが取得できる。
+            if (randomInteger == 0) {
+                intent = Intent(this, Philippines::class.java)
+                startActivity(intent)
+            } else {
+                intent = Intent(this, Thai::class.java)
+                startActivity(intent)}
+
         }
 
         shopping.setOnClickListener {

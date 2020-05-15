@@ -22,14 +22,12 @@
         android:id="@+id/kagawaView"
         android:layout_width="250dp"
         android:layout_height="253dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/kagawa7"
-        app:layout_constraintBottom_toTopOf="@+id/kagawa_tag"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kagawa"
-        app:layout_constraintVertical_bias="0.652" />
+        app:layout_constraintTop_toBottomOf="@+id/kagawa" />
 
     <TextView
         android:id="@+id/kagawa"
@@ -43,17 +41,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <TextView
-        android:id="@+id/kagawa_tag"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="32dp"
-        android:text="#うどん  #高松丸亀町壱番街前ドーム広場
-        ＃草間弥生　＃直島 　#オリーブ"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+    <ImageButton
+    android:id="@+id/hotel_booking"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="80dp"
+    android:background="@drawable/hotel1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/kagawaView"
+    app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

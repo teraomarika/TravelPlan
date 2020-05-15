@@ -13,7 +13,7 @@
         <activity android:name=".Philippines" />
         <activity android:name=".Hawaii" />
         <activity android:name=".Australia" />
-        <activity android:name=".German" />
+        <activity android:name=".Germany" />
 
         <meta-data
             android:name="com.google.android.actions"
