@@ -41,13 +41,14 @@
 
     <RadioButton
         android:id="@+id/reflesh"
+        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
         android:text="reflesh?" />
 
     <RadioButton
         android:id="@+id/shopping"
+        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="shopping?" />

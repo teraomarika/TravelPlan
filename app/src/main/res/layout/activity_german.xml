@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/germanView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginTop="48dp"
         android:src="@drawable/german2"
         app:layout_constraintBottom_toTopOf="@+id/k_tag"
@@ -35,7 +35,7 @@
         android:id="@+id/german"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:text="Germany"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"

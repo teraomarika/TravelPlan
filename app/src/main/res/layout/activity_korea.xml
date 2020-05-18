@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/koreaView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/korea1"
         app:layout_constraintBottom_toTopOf="@+id/k_tag"
@@ -36,7 +36,7 @@
         android:id="@+id/korea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:text="韓国"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"

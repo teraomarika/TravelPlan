@@ -9,28 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Brazil"></activity>
-        <activity android:name=".Philippines" />
-        <activity android:name=".Hawaii" />
-        <activity android:name=".Australia" />
-        <activity android:name=".Germany" />
+        <activity android:name=".Brazil"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Philippines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Hawaii"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Australia"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Germany"  android:parentActivityName=".MainActivity"/>
 
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@drawable/gradation" />
 
-        <activity android:name=".Korea" />
-        <activity android:name=".Thai" />
-        <activity android:name=".Vietnam" />
-        <activity android:name=".London" />
-        <activity android:name=".InternationlNeed2" />
-        <activity android:name=".InternationalNeed" />
-        <activity android:name=".Yakushima" />
-        <activity android:name=".Kagawa" />
-        <activity android:name=".Kinosaki" />
+        <activity android:name=".Korea" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Thai" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Vietnam" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".London" android:parentActivityName=".MainActivity" />
+        <activity android:name=".InternationlNeed2" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".InternationalNeed" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Yakushima" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Kagawa" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Kinosaki" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Wakayama"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".JapanNeed"
             android:parentActivityName=".MainActivity" />

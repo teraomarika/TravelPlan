@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/ausView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/aus1"
         app:layout_constraintBottom_toTopOf="@+id/k_tag"
@@ -35,7 +35,7 @@
         android:id="@+id/australia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:text="Australia"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +47,7 @@
         android:id="@+id/airplan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="236dp"
+        android:layout_marginStart="240dp"
         android:layout_marginTop="16dp"
 
         android:background="@drawable/airplan"

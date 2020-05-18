@@ -41,11 +41,12 @@
             android:id="@+id/chill"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
+            android:textSize="20dp"
             android:text="chill?" />
 
         <RadioButton
             android:id="@+id/adventure"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="adventure?" />

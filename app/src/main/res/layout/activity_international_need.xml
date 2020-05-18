@@ -41,18 +41,20 @@
             android:id="@+id/relax1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
+            android:textSize="20dp"
             android:text="relax ?"/>
 
         <RadioButton
             android:id="@+id/activity2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="activity ?" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="experience?"
             android:id="@+id/experience1"/>
 

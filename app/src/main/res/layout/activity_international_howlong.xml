@@ -39,19 +39,21 @@
 
         <RadioButton
             android:id="@+id/afewdays"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="a few days ?" />
 
         <RadioButton
             android:id="@+id/aweek"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="a week ?" />
 
         <RadioButton
             android:id="@+id/more"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="more ?" />

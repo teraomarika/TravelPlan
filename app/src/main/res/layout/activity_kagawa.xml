@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/kagawaView"
-        android:layout_width="250dp"
-        android:layout_height="253dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/kagawa7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +33,9 @@
         android:id="@+id/kagawa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:text="香川"
-        android:textSize="30dp"
+        android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
